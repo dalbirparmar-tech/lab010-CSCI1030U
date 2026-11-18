@@ -14,7 +14,7 @@ def eval_rpn(tokens):
     # Outline (write your plan here first):
     #  take a string thats the math operations in polish notation and then give back a number that is just evaluating it
     # i.e 8 2 + 3 2 + /  would be 2 because  8 + 2 = 10 / 3 + 2 = 5
-    # use stack because the numbers are used together one
+    # use stack because you read from right to left to know the numbers first and then the operations stack makes more sense here
     """
     1. create an empty stack
     2. iterate through every token
@@ -52,7 +52,7 @@ def decode_string(s):
     # Outline:
     # take a string, and then read it for the symbol at the start for number of time repeat pattern, look at number assosciated with letter and repeat that many times and then keep doing that until no more left
     # 4[b2[c]] would be bccbccbccbcc
-    # also use stack for this beecause it one after the other we look for
+    # also use stack for this beecause it one after the other we look for from start to finish
     """
     1. create an empty stack
     2. iterate through each character
