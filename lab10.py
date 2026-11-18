@@ -203,7 +203,7 @@ def num_islands(grid):   # Part 4 - stretch (optional)
 def main():
     # Optional scratch space - try your functions here, then run: python lab10.py
     print(eval_rpn(["2", "1", "+", "3", "*"]))   # 9
-    pass
+    
 
 
 if __name__ == "__main__":
